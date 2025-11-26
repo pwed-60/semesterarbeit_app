@@ -1,0 +1,30 @@
+# Geheimnisse / Konfiguration (NICHT committen)
+.env           # enthält deinen echten API-Key
+.env.local
+.env.development
+.env.production
+
+# Python-Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Sonstiges
+dist/
+build/
+.cache/

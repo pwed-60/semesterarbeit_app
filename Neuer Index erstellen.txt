@@ -1,0 +1,4 @@
+# Neuer Index erstellen
+python build_index.py
+# Shiny App starten
+shiny run --reload app/server.py

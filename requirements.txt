@@ -1,0 +1,14 @@
+shiny
+python-dotenv
+
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+
+openai
+chromadb
+tiktoken
+
+pypdf
+docx2txt
