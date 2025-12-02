@@ -94,3 +94,46 @@ Abhängigkeiten
 7. Server stoppen
 
    Im Terminal-Fenster mit der laufenden App Ctrl + C drücken.
+
+
+   ### Neuen Index erstellen
+
+Wenn neue Dokumente hinzugekommen sind oder der Index neu aufgebaut werden soll, gehe wie folgt vor:
+
+1. **Dokumente ablegen**
+
+   - Neue oder geänderte Dateien im vorgesehenen Datenordner speichern  
+     (z. B. im Ordner `data` oder einem Unterordner davon).
+
+2. **VS Code und Umgebung vorbereiten**
+
+   - VS Code mit dem Ordner `C:\Dev\semesterarbeit_app` öffnen.
+   - Terminal öffnen: `Terminal` → `Neues Terminal`.
+   - Sicherstellen, dass das Terminal im Projektordner ist:
+
+     ```powershell
+     PS C:\Dev\semesterarbeit_app>
+     ```
+
+   - Virtuelle Umgebung aktivieren (falls noch nicht aktiv):
+
+     ```powershell
+     .\.venv\Scripts\Activate.ps1
+     ```
+
+     Danach sollte im Prompt `(.venv)` erscheinen.
+
+3. **Index neu aufbauen**
+
+   - Im aktivierten Environment folgenden Befehl ausführen:
+
+     ```powershell
+     python build_index.py
+     ```
+
+   - Im Terminal prüfen, ob der Lauf ohne Fehler beendet wurde.
+
+4. **Hinweis**
+
+   - Pfade, Dateitypen oder weitere Einstellungen (z. B. welche Ordner indexiert werden) sind in `build_index.py` bzw. in der Konfiguration (z. B. `.env`) definiert.
+   - Bei Änderungen dieser Einstellungen entsprechend den Code/Kommentare in `build_index.py` anpassen.
