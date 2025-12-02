@@ -98,7 +98,7 @@ Abhängigkeiten
 
    ### Neuen Index erstellen
 
-Wenn neue Dokumente hinzugekommen sind oder der Index neu aufgebaut werden soll, gehe wie folgt vor:
+Wenn neue Dokumente hinzugekommen sind oder der Index neu aufgebaut werden soll, gehe wie folgt vor::
 
 1. **Dokumente ablegen**
 
