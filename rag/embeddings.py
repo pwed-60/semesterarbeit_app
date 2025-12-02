@@ -8,7 +8,8 @@ from .config import INDEX_DIR, get_openai_embeddings
 
 def build_vectorstore(chunks: List[Document]) -> Chroma:
     """
-    Baut einen neuen Chroma-Vector-Store aus Chunks und speichert ihn persistent.
+    Baut einen neuen Chroma-Vector-Store aus Chunks. Die Persistenz wird
+    über `persist_directory` von Chroma selbst gehandhabt.
     """
     embeddings = get_openai_embeddings()
     vectordb = Chroma.from_documents(
@@ -16,7 +17,6 @@ def build_vectorstore(chunks: List[Document]) -> Chroma:
         embedding=embeddings,
         persist_directory=str(INDEX_DIR),
     )
-    vectordb.persist()
     return vectordb
 
 
