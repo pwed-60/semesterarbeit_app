@@ -4,6 +4,9 @@
 .env.development
 .env.production
 
+# RAG / Vector Store (lokale Indexdaten, nicht committen)
+data/index
+
 # Python-Bytecode
 __pycache__/
 *.py[cod]
