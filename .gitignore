@@ -1,8 +1,10 @@
 # Geheimnisse / Konfiguration (NICHT committen)
-.env           # enthält deinen echten API-Key
+.env
+# .env enthält deinen echten API-Key
 .env.local
 .env.development
 .env.production
+
 
 # RAG / Vector Store (lokale Indexdaten, nicht committen)
 data/index
