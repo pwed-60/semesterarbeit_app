@@ -1,7 +1,7 @@
 from shiny import ui
 
 app_ui = ui.page_fluid(
-    ui.h2("Semesterarbeit: Dokumenten-Chatbot"),
+    ui.h2("Dokumenten-Chatbot"),
     ui.input_text("question", "Deine Frage zu den Dokumenten:", ""),
     ui.input_action_button("ask", "Frage stellen"),
     ui.hr(),

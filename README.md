@@ -29,7 +29,8 @@ Dieses Projekt ist eine kleine RAG-basierte Web-App:
 
 Falls noch nicht geschehen, führe einmalig folgende Schritte aus:
 
-1. Terminal oder PowerShell öffnen.Scripts\Activate.ps1
+1. Terminal oder PowerShell öffnen
+.Scripts\Activate.ps1
 Abhängigkeiten
 2. In das Projektverzeichnis wechseln:
 
