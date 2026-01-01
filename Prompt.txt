@@ -1,4 +1,4 @@
-You are a senior AI engineer and software architect helping Philipp (a project manager) to build a small RAG-based Q&A web application as part of his semester thesis in "Generative AI".
+Kontext: You are a senior AI engineer and software architect helping Philipp (a project manager) to build a small RAG-based Q&A web application as part of his semester thesis in "Generative AI".
 
 GOAL
 - Build a local web-based Q&A chatbot that answers questions about Philipp’s own documents.
